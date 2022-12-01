@@ -1,13 +1,15 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { ThemeContext } from "../context/themeprovider"
 import { Link } from 'react-router-dom'
 
 export default function Home() {
+    const theme = useContext(ThemeContext);
   return (
     <section
-  class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center py-8">
+  class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center py-8 h-[509px] bg-transparent">
   <div class="p-8 md:p-12 lg:px-16 lg:py-24">
     <div class="mx-auto max-w-xl text-center sm:text-left">
-      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+      <h2 className={theme.theme === "light" ? "text-2xl font-bold text-gray-900 md:text-3xl" : "text-2xl font-bold text-white md:text-3xl"}>
         Food E-Learning
       </h2>
 

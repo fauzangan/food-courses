@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer aria-label="Site Footer" class="bg-gray-100">
+    <footer aria-label="Site Footer">
   <div class="relative mx-auto max-w-screen-xl px-4 py-6">
 
 

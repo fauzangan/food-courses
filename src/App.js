@@ -1,16 +1,18 @@
-import logo from './logo.svg';
+import { useContext } from 'react';
 import './App.css';
 import Footer from './components/footer';
 import Header from './components/header';
 import Home from './pages/home';
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { ThemeContext } from "./context/themeprovider"
 import Courses from './pages/courses';
 import About from './pages/about';
 import Detail from './pages/detail';
 
 function App() {
+  const theme = useContext(ThemeContext);
   return (
-    <div className="bg-gray-100 h-full">
+    <div className={theme.theme === "light" ? "bg-gray-100 " : "bg-black"}>
       <Header/>
       <Routes>
         <Route path='/' element={<Navigate to="/home"/>}/>

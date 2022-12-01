@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section>
-  <div class="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 sm:py-10 lg:px-8">
+  <div class="mx-auto max-w-screen-xl px-4 py-16 h-[509px] bg-gray-100 rounded-xl">
     <div class="max-w-3xl">
       <h2 class="text-3xl font-bold sm:text-4xl">
         Food E-Learning by Kelompok 09

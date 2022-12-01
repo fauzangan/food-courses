@@ -36,7 +36,7 @@ export default function DetailCard({data}) {
       }
 
   return (
-<article class="group max-w-5xl m-auto py-10">
+<article class="group max-w-5xl m-auto py-8 bg-gray-100 rounded-2xl h-[509px]">
   <img
     alt="Lava"
     src={data?.image}
