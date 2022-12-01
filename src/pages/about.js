@@ -6,8 +6,7 @@ export default function About() {
   <div class="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 sm:py-10 lg:px-8">
     <div class="max-w-3xl">
       <h2 class="text-3xl font-bold sm:text-4xl">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod alias
-        doloribus impedit.
+        Food E-Learning by Kelompok 09
       </h2>
     </div>
 
@@ -23,20 +22,12 @@ export default function About() {
       <div class="lg:py-16">
         <article class="space-y-4 text-gray-600">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui
-            hic atque tenetur quis eius quos ea neque sunt, accusantium soluta
-            minus veniam tempora deserunt? Molestiae eius quidem quam repellat.
+            Aplikasi ini dibuat untuk memenuhi tugas akhir praktikum RPLBK 2022, aplikasi ini dibuat oleh:
           </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
-            explicabo quidem voluptatum voluptas illo accusantium ipsam quis,
-            vel mollitia? Vel provident culpa dignissimos possimus, perferendis
-            consectetur odit accusantium dolorem amet voluptates aliquid,
-            ducimus tempore incidunt quas. Veritatis molestias tempora
-            distinctio voluptates sint! Itaque quasi corrupti, sequi quo odit
-            illum impedit!
-          </p>
+          <p>- Fauzan Zaman</p>
+          <p>- Fachrul</p>
+          <p>- Erlin Sofia Sitohang</p>
+          <p>- Ikhsan Arya W</p>
         </article>
       </div>
     </div>
